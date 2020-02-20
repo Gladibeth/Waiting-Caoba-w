@@ -1,4 +1,204 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+      url('../fonts/Oswald-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+      url('../fonts/Oswald-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+      url('../fonts/Oswald-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+      url('../fonts/Oswald-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+      url('../fonts/Oswald-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+      url('../fonts/Oswald-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BlkCond.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BlkCond.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-LightObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-LightObl.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BlkCondObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BlkCondObl.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Bold.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BoldCond.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BoldCond.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Blk.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Blk.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Roman.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BoldObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BoldObl.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Comp.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Comp.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Obl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Obl.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Light.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BlkObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BlkObl.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Cond.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-Cond.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-BoldCondObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-BoldCondObl.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-CondObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-CondObl.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-LightCondObl.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-LightCondObl.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-LightCond.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-LightCond.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-ExtraComp.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-ExtraComp.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-UltraComp.woff2') format('woff2'),
+      url('../fonts/HelveticaLTStd-UltraComp.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 /** Scroll */
 ::-webkit-scrollbar {
@@ -18,7 +218,7 @@ html{
 html,
 body {
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica LT Std';
 
 }
 .main-banner{
@@ -40,7 +240,7 @@ body {
 
 .main-banner__img{
   width: 130px;
-  margin-left: -20px;
+  margin-left: -15px;
   margin-bottom: 15px;
 }
 .main-banner__img img{
@@ -50,9 +250,10 @@ body {
   padding: 50px;
 }
 .main-banner__title p{
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: 'Oswald';
 }
 
 .main-grid{
@@ -76,7 +277,7 @@ input[type="number"],textarea,select {
   background: #ffffff;
   color: #898989;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Helvetica LT Std';
   border-radius: 0px;
   
 }
@@ -106,10 +307,12 @@ textarea {
 }
 .custom-control-label{
   color:#fff;
+  font-weight: 300;
 }
 .text-link{
   color:#fff;
   text-decoration: underline;
+  font-weight: 300;
 }
 .text-link:hover{
   color:#2bb7a9;
@@ -124,10 +327,11 @@ textarea {
   display: inline-block;
   width: auto;
   margin: 0;
-  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 18px;
   line-height: 1.5em;
-  letter-spacing: 0;
-  font-weight: 600;
+  letter-spacing: 2px;
+  font-weight: 400;
   outline: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -137,6 +341,7 @@ textarea {
   padding: 10px 50px;
   cursor: pointer;
   text-align: center;
+  font-family: 'Oswald';
 }
 
 .btn--filled {
@@ -170,12 +375,13 @@ textarea {
   content: 'Caoba';
   color: #fff;
   transform: rotate(-90deg);
-  right: -230px;
+  right: -160px;
   z-index: 999;
   top: 250px;
   opacity: 0.2;
   font-size: 150px;
   font-weight: 700;
+  font-family: 'Oswald';
   letter-spacing: 15px;
 }
 .main-banner__slidercontent{
@@ -215,7 +421,8 @@ textarea {
   text-transform: uppercase;
   font-weight: 600;
   position: relative;
-  font-size: 35px;
+  font-size: 45px;
+  letter-spacing: 5px;
 }
 .main-banner__slidertext h1:after{
   position: absolute;
@@ -229,11 +436,13 @@ textarea {
 .main-banner__slidertext p{
   color: #fff;
   font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 .main-banner__slidertext span{
   color:#53dfcb;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   
   
 }
@@ -245,7 +454,14 @@ textarea {
 .main-banner__sliderubication p{
   color: #fff;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.main-banner__sliderubication strong{
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 21px;
+  font-family: 'Oswald';
 }
 .main-banner__sliderlist{
   padding: 10px 10px 10px 30px;
@@ -256,7 +472,10 @@ textarea {
 }
 .main-banner__ullist li{
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Oswald';
 }
 
 
