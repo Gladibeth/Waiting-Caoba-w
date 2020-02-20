@@ -204,6 +204,7 @@ textarea {
 .main-banner__sliderimg img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .main-banner__slidertext{
   padding: 30px;
